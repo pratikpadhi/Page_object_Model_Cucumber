@@ -3705,3 +3705,17 @@
 2020-07-26 12:42:11,379 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
 2020-07-26 12:58:04,266 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
 2020-07-26 12:58:16,211 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 12:10:00,731 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 12:10:10,682 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 12:12:19,858 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 12:12:26,537 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 13:43:32,478 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 13:43:39,371 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 13:44:01,803 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 13:44:07,459 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 13:45:59,684 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 13:46:04,352 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 13:46:43,920 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 13:46:49,447 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
+2023-07-16 13:48:46,727 [main] INFO com.genericLib.log1 - Test Case execution for customer_MD started.
+2023-07-16 13:48:52,059 [main] INFO com.genericLib.log1 - user_is_in_login_page test case passed successfully
