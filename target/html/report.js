@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 215100,
+  "duration": 365200,
   "status": "passed"
 });
 formatter.background({
@@ -26,7 +26,7 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 166658100,
+  "duration": 274719400,
   "status": "passed"
 });
 formatter.scenario({
@@ -56,32 +56,32 @@ formatter.match({
   "location": "BDDLoginTest.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 6177775700,
+  "duration": 6027768300,
   "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test()"
 });
 formatter.result({
-  "duration": 4236250300,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027userName\u0027]\"}\n  (Session info: chrome\u003d114.0.5735.199)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-TQLGTMS\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54630}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 69b3145a14a84f8e15b3097ff4a86f58\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027userName\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\r\n\tat com.pageobjectRepoTAP.Login.login(Login.java:26)\r\n\tat stepimplementations.BDDLoginTest.test(BDDLoginTest.java:100)\r\n\tat ✽.When user enters correct username and password(features/login.feature:8)\r\n",
-  "status": "failed"
+  "duration": 20753493400,
+  "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test1()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 526530700,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 750183000,
+  "duration": 143500,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 11,
-  "name": "the user should be able to log in",
+  "name": "the user should be able to log in one",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -109,7 +109,7 @@ formatter.examples({
   "line": 17,
   "name": "",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;",
   "rows": [
     {
       "cells": [
@@ -117,7 +117,7 @@ formatter.examples({
         "password"
       ],
       "line": 18,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;1"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;1"
     },
     {
       "cells": [
@@ -125,7 +125,7 @@ formatter.examples({
         "pasone"
       ],
       "line": 19,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;2"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;2"
     },
     {
       "cells": [
@@ -133,7 +133,7 @@ formatter.examples({
         "passcn"
       ],
       "line": 20,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;3"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;3"
     },
     {
       "cells": [
@@ -141,13 +141,13 @@ formatter.examples({
         "pasthr"
       ],
       "line": 21,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;4"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 99300,
+  "duration": 167000,
   "status": "passed"
 });
 formatter.background({
@@ -166,14 +166,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 53700,
+  "duration": 124500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 19,
-  "name": "the user should be able to log in",
+  "name": "the user should be able to log in one",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;2",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -207,9 +207,8 @@ formatter.match({
   "location": "BDDLoginTest.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 371000,
-  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-TQLGTMS\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat stepimplementations.BDDLoginTest.user_is_in_login_page(BDDLoginTest.java:50)\r\n\tat ✽.Given user is in login page(features/login.feature:12)\r\n",
-  "status": "failed"
+  "duration": 107597500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -221,7 +220,8 @@ formatter.match({
   "location": "BDDLoginTest.test_user(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6050800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -233,20 +233,22 @@ formatter.match({
   "location": "BDDLoginTest.test_Password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 196700,
+  "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test1()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 90680300,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 62400,
+  "duration": 187300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 54700,
+  "duration": 161600,
   "status": "passed"
 });
 formatter.background({
@@ -265,14 +267,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 45400,
+  "duration": 113600,
   "status": "passed"
 });
 formatter.scenario({
   "line": 20,
-  "name": "the user should be able to log in",
+  "name": "the user should be able to log in one",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;3",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -306,9 +308,8 @@ formatter.match({
   "location": "BDDLoginTest.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 470400,
-  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-TQLGTMS\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat stepimplementations.BDDLoginTest.user_is_in_login_page(BDDLoginTest.java:50)\r\n\tat ✽.Given user is in login page(features/login.feature:12)\r\n",
-  "status": "failed"
+  "duration": 42697900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -320,7 +321,8 @@ formatter.match({
   "location": "BDDLoginTest.test_user(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 175500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -332,20 +334,22 @@ formatter.match({
   "location": "BDDLoginTest.test_Password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 174000,
+  "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test1()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 63905500,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 59700,
+  "duration": 104500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 79100,
+  "duration": 102000,
   "status": "passed"
 });
 formatter.background({
@@ -364,14 +368,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 84400,
+  "duration": 183000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "the user should be able to log in",
+  "name": "the user should be able to log in one",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in;;4",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-one;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -405,9 +409,8 @@ formatter.match({
   "location": "BDDLoginTest.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 426600,
-  "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027DESKTOP-TQLGTMS\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat stepimplementations.BDDLoginTest.user_is_in_login_page(BDDLoginTest.java:50)\r\n\tat ✽.Given user is in login page(features/login.feature:12)\r\n",
-  "status": "failed"
+  "duration": 50463100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -419,7 +422,8 @@ formatter.match({
   "location": "BDDLoginTest.test_user(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 182800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -431,24 +435,26 @@ formatter.match({
   "location": "BDDLoginTest.test_Password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 124000,
+  "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test1()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 56729700,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 74400,
+  "duration": 287900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 120500,
+  "duration": 385900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46700,
+  "duration": 124800,
   "status": "passed"
 });
 formatter.background({
@@ -467,14 +473,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 74000,
+  "duration": 173500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 24,
-  "name": "the user should be able to log",
+  "name": "the user should be able to log in two",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-two",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -504,30 +510,29 @@ formatter.match({
   "location": "BDDLoginTest.user_is_in_the_login(String)"
 });
 formatter.result({
-  "duration": 2518700,
+  "duration": 875900,
   "status": "passed"
 });
 formatter.match({
   "location": "BDDLoginTest.test1()"
 });
 formatter.result({
-  "duration": 348352700,
+  "duration": 123577500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 78900,
+  "duration": 160400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 386400,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepimplementations.BDDLoginTest.tearDown(BDDLoginTest.java:131)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 517000,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 28,
-  "name": "the user should be able log in",
+  "name": "the user should be able log in three",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -540,41 +545,41 @@ formatter.examples({
   "line": 31,
   "name": "",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;",
   "rows": [
     {
       "cells": [
         "username"
       ],
       "line": 32,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;1"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;1"
     },
     {
       "cells": [
         "usrone"
       ],
       "line": 33,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;2"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;2"
     },
     {
       "cells": [
         "usrscn"
       ],
       "line": 34,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;3"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;3"
     },
     {
       "cells": [
         "usrthr"
       ],
       "line": 35,
-      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;4"
+      "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 139200,
+  "duration": 1015500,
   "status": "passed"
 });
 formatter.background({
@@ -593,14 +598,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 108900,
+  "duration": 188000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 33,
-  "name": "the user should be able log in",
+  "name": "the user should be able log in three",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;2",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -622,16 +627,15 @@ formatter.match({
   "location": "BDDLoginTest.user_enters_correct_as_loginusername_sui(String)"
 });
 formatter.result({
-  "duration": 176300,
+  "duration": 261400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 503800,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepimplementations.BDDLoginTest.tearDown(BDDLoginTest.java:131)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 110700,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 146300,
+  "duration": 256800,
   "status": "passed"
 });
 formatter.background({
@@ -650,14 +654,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 283500,
+  "duration": 468900,
   "status": "passed"
 });
 formatter.scenario({
   "line": 34,
-  "name": "the user should be able log in",
+  "name": "the user should be able log in three",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;3",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -679,16 +683,15 @@ formatter.match({
   "location": "BDDLoginTest.user_enters_correct_as_loginusername_sui(String)"
 });
 formatter.result({
-  "duration": 192000,
+  "duration": 189500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 420200,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepimplementations.BDDLoginTest.tearDown(BDDLoginTest.java:131)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 107900,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 166200,
+  "duration": 410600,
   "status": "passed"
 });
 formatter.background({
@@ -707,14 +710,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 120500,
+  "duration": 333200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 35,
-  "name": "the user should be able log in",
+  "name": "the user should be able log in three",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in;;4",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-log-in-three;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -736,16 +739,15 @@ formatter.match({
   "location": "BDDLoginTest.user_enters_correct_as_loginusername_sui(String)"
 });
 formatter.result({
-  "duration": 132800,
+  "duration": 404400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 325700,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepimplementations.BDDLoginTest.tearDown(BDDLoginTest.java:131)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 138800,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 156000,
+  "duration": 537900,
   "status": "passed"
 });
 formatter.background({
@@ -764,14 +766,14 @@ formatter.match({
   "location": "BDDLoginTest.testuser()"
 });
 formatter.result({
-  "duration": 124200,
+  "duration": 242700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 37,
-  "name": "the user should be able to log in",
+  "name": "the user should be able to log in four",
   "description": "",
-  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in",
+  "id": "test--the-login-functionality-of-mercury-tour-demo;the-user-should-be-able-to-log-in-four",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -814,12 +816,11 @@ formatter.match({
   "location": "BDDLoginTest2.i_will_use_data_table(DataTable)"
 });
 formatter.result({
-  "duration": 1705200,
+  "duration": 4349800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 329500,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepimplementations.BDDLoginTest.tearDown(BDDLoginTest.java:131)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 141500,
+  "status": "passed"
 });
 });
