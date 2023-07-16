@@ -16,9 +16,9 @@ Background:
 
     Examples: 
       | username | password |
-      | dhinka   | chika    |
-      | sachi    | muchi    |
-      | sui      | dhaga    |
+      | usrone   | pasone   |
+      | usrscn   | passcn   |
+      | usrthr   | pasthr   |
 
   @web
   Scenario: the user should be able to log
@@ -30,13 +30,13 @@ Background:
 
     Examples: 
       | username |
-      | dhinka   |
-      | sachi    |
-      | sui      |
+      | usrone   |
+      | usrscn   | 
+      | usrthr   | 
 
   Scenario: the user should be able to log in
     Given I will use data table
-      | username | password |
-      | dhinka   | chika    |
-      | sachi    | muchi    |
-      | sui      | dhaga    |
+  		| username | password |
+      | usrone   | pasone   |
+      | usrscn   | passcn   |
+      | usrthr   | pasthr   |

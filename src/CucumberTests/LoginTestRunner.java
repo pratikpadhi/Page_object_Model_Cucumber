@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 		//format = {"pretty" ,"json:target/json/output.json"},
 		format = {"pretty" ,"json:target/json/output.json","html:target/html"},
 		//tags= {"@web"},
-		features="features" ,glue="stepimplementations")
+		features="features/login.feature" ,glue="stepimplementations")
 public class LoginTestRunner {
 
 }

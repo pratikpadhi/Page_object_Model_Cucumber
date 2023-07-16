@@ -13,12 +13,14 @@ import com.genericLib.constnts;
 
 public class Login {
 
-	@FindBy(xpath="//input[@name='userName']")
+	@FindBy(xpath="//input[@id='signInName']")
 	private WebElement usernameedt;
 	@FindBy(xpath="//input[@name='password']")
 	private WebElement passwordedt;
-	@FindBy(name="login")
+	@FindBy(id="signInbtn")
 	private WebElement loginbtn;
+	@FindBy(name="login")
+	private WebElement loginbtn1;
 	
 	
 	public void login(){
